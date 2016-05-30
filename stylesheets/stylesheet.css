@@ -1,3 +1,72 @@
+.navbar-logo{
+  text-align: left;
+  min-height: 30px;
+  max-height: 150px;
+  box-sizing: border-box;
+  font-family: 'garamond';
+  font-size: xx-large;
+}
+.ben-menu-left{
+  max-width:40%;
+}
+.problem_content {
+    background-color: #fff;
+    font-size: 110%;
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #aaa;
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #aaa;
+    padding: 10px;
+}
+.problem-solution{
+  padding: 1em;
+  font-style: italic;
+}
+.margin-navbar{
+  margin-top: 2%;
+}
+.override-gallery{
+    list-style-type: inherit !important;
+    position: inherit !important;
+    -webkit-transform-style: inherit !important;
+    -ms-transform-style: inherit !important;
+    transform-style: inherit !important;
+}
+.project-description{
+    padding-left: 3%;
+    margin: 2%;
+}
+.project-header{
+    font-family: garamond;
+    font-size: larger;
+    margin: 1%;
+    }
+.navbar-default{
+  background: none !important; 
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.move-button{
+  position:absolute !important;
+  top:0px !important;
+  right:0px !important;
+}
+.ben-menu{
+  width: 100%;
+  margin: auto 0px;
+  text-align: center;
+  z-index: 33333;
+  top: 0;
+  background: #ffffff!important;
+}
+.navbar-logo-png{
+  border: 0px;
+  max-width: 100%;
+  width: auto;
+  max-height: 110px;
+  margin-top: -5%;
+}
 body {
   margin: 0;
   padding: 0;

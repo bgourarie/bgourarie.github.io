@@ -5,27 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+		<!-- bootstrap cdn stuff: -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <title>Bgourarie.GitHub.io by bgourarie</title>
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <title>Ben Gourarie</title>
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>Bgourarie.GitHub.io</h1>
-        <h2>Personal website</h2>
+        <h1>Ben Gourarie</h1>
+        <h2>I have a website because I can't afford a boat.</h2>
 
-        <section id="downloads">
-          <a href="https://github.com/bgourarie" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid ben-menu">
+	    <div class="navbar-left ben-menu-left">
+	      <a class="navbar-logo" href="#">
+	      	<img class="navbar-logo-png" src="/images/bg-logo.jpg"/>
+	      </a>
+	   	</div> 
+	    <button type="button" class="navbar-toggle collapsed move-button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav nav-pill navbar-nav navbar-right override-gallery">
+  				<li class="override-gallery active"> 
+						<a href="#" class="menu-item-about">
+  						About
+  					</a>
+  					<a href="#" class="menu-item-projects">
+  						Projects
+  					</a>
+  				</li>
+  		</ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
       </div>
     </header>
 
     <div class="container">
-      <section id="main_content">
+      <section id="about">
         <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
@@ -50,6 +82,34 @@
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+      </section>
+
+      <section id="projects" style="display:none;">
+      	<div class="container">
+      		<div class="row projects-row">
+      			<div class="col-sm-3 project-thumbnail">
+      				Test 1
+      			</div>
+      			<div class="col-sm-3 project-thumbnail">
+      				Test project 
+      				<a href="http://www.google.com">
+      					Google isn't really the project
+      			 </a>
+      			</div>
+      			<div class="col-sm-3 project-thumbnail">
+      				Test project 
+      				<a href="http://www.google.com">
+      					Google isn't really the project
+      			 </a>
+      			</div>
+      			<div class="col-sm-3 project-thumbnail">
+      				Test project 
+      				<a href="http://www.google.com">
+      					Google isn't really the project
+      			 </a>
+      			</div>
+ 					</div>
+      	</div>
       </section>
     </div>
 
