@@ -10,7 +10,7 @@ $( document ).ready(function() {
  			$('#projects').show();
  		});
 	 	$('.menu-item-about').on('click', function(e){
-	 		$('li').removeClass('active');
+			$('li').removeClass('active');
 	 		$(this).addClass('active');
 			$('#projects').hide();
 	 		$('#about').show();
