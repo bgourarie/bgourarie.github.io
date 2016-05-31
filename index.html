@@ -19,46 +19,53 @@
   <body>
 
     <header>
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid ben-menu">
-	    <div class="navbar-left ben-menu-left">
-	      <a class="navbar-logo" href="#">
-	      	<img class="navbar-logo-png" src="images/bg-logo.jpg"/>
-	      </a>
-	   	</div> 
-	    <button type="button" class="navbar-toggle collapsed move-button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+    	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav nav-pill navbar-nav navbar-right override-gallery">
-  				<li class="override-gallery active"> 
-						<a href="#" class="menu-item-about">
-  						About
-  					</a>
-  					<a href="#" class="menu-item-projects">
-  						Projects
-  					</a>
-  				</li>
-  		</ul>
+			<a class="navbar-brand" href="#">
+      	<img src="images/bg-logo.jpg" alt="Ben Gourarie"/>
+      </a>    
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-right navbar-nav">
+        <li class="active menu-item-about"><a href="#">About <span class="sr-only">(current)</span></a></li>
+        <li class="menu-item-projects"><a href="#">Projects</a></li>
+        <li class="navbar-link"><a href="https://www.github.com/bgourarie/" target="_blank">Github</a></li>
+        <li class="navbar-link"><a href="https://www.linkedin.com/in/bgourarie" target="_blank">LinkedIn</a></li>
+        
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
     </header>
 
-    <div class="container">
-      <section id="about">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <div class="container" id="about">
+    <p>
+      My name is Ben Gourarie. I live in Seattle and love to program, tinker with electronics, and take my dog walking in new places she's never seen. I like cooking and enjoy a good whiskey from time to time.
+    </p>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+		<p>
+					I currently work in downtown Seattle where I do backend development, hosting support, AWS configuration, test writing,  arcade gaming  and ping pong at UpTop Corp.
+		</p>
+		<p>
+				You can find me on <a title="bgourarie github" href="http://www.github.com/bgourarie" target="_blank">github</a> (personal account), and <a title="Bgourarie linkedin" href="http://www.linkedin.com/pub/ben-gourarie/62/997/451" target="_blank">linkedin</a>
+		</p>
+		<p> This website is hosted using Github Pages and some self-made JS, CSS on top of Bootstrap. Maybe someday I'll edit it to use Jekyll as well. 
+			The site is to explain some of my personal projects and as a personal repository for thoughts and ideas that I feel are important enough to record but not important enough to remember in my head or save on my phone.
+		</p>
+    </div>
 
-      </section>
-
-      <section id="projects" style="display:none;">
-      	<div class="container">
+      	<div id="projects" class="container">
       		<div class="row projects-row">
       			<div class="col-sm-3 project-thumbnail">
       				Test 1
@@ -83,15 +90,16 @@
       			</div>
  					</div>
       	</div>
-      </section>
-    </div>
+     
 
   <footer>
 
 		<!-- Latest compiled and minified JavaScript -->
+		<script src="javascripts/jquery.js"></script>
+
+		<script src="javascripts/main.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-		<script src="javascripts/main.js">
   </footer>
 
   </body>

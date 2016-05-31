@@ -22,9 +22,6 @@
   padding: 1em;
   font-style: italic;
 }
-.margin-navbar{
-  margin-top: 2%;
-}
 .override-gallery{
     list-style-type: inherit !important;
     position: inherit !important;
@@ -41,43 +38,23 @@
     font-size: larger;
     margin: 1%;
     }
-.navbar-default{
-  background: none !important; 
-  border: 0 !important;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-}
-.move-button{
-  position:absolute !important;
-  top:0px !important;
-  right:0px !important;
-}
-.ben-menu{
-  width: 100%;
-  margin: auto 0px;
-  text-align: center;
-  z-index: 33333;
-  top: 0;
-  background: #ffffff!important;
-}
-.navbar-logo-png{
+/*.navbar-logo-png{
   border: 0px;
   max-width: 100%;
   width: auto;
   max-height: 110px;
   margin-top: -5%;
-}
-body {
+}*/
+/*body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
+  color: #ffffff;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-}
+}*/
+/*
 
-/* General & 'Reset' Stuff */
 
 .container {
   width: 90%;
@@ -103,7 +80,7 @@ li {
    h1       - project name
    h2       - project description
 */
-
+/*
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -144,7 +121,7 @@ header h2 {
 }
 
 /* Main Content
-*/
+
 
 #main_content {
   width: 100%;
@@ -255,7 +232,7 @@ hr {
 }
 
 /* Buttons
-*/
+
 
 .btn {
   display: inline-block;
@@ -293,14 +270,14 @@ hr {
 
 /* Links
    a, a:hover, a:visited
-*/
+
 
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
-/* Clearfix */
+/* Clearfix 
 
 .cf:before, .cf:after {
   content:"";
@@ -313,4 +290,4 @@ a {
 
 .cf {
   zoom:1;
-}
+}*/
