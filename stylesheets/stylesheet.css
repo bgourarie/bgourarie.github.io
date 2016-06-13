@@ -33,6 +33,9 @@
     padding-left: 3%;
     margin: 2%;
 }
+.portfolio-item {
+    margin-bottom: 25px;
+}
 .project-header{
     font-family: garamond;
     font-size: larger;
