@@ -30,7 +30,7 @@
       </button>
 			<a class="navbar-brand" href="#">
       	<img src="images/bg-logo.jpg" alt="Ben Gourarie"/>
-      </a>    
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -40,7 +40,7 @@
         <li class="menu-item-projects"><a href="#">Projects</a></li>
         <li class="navbar-link"><a href="https://www.github.com/bgourarie/" target="_blank">Github</a></li>
         <li class="navbar-link"><a href="https://www.linkedin.com/in/bgourarie" target="_blank">LinkedIn</a></li>
-        
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -59,39 +59,83 @@
 		<p>
 				You can find me on <a title="bgourarie github" href="http://www.github.com/bgourarie" target="_blank">github</a> (personal account), and <a title="Bgourarie linkedin" href="http://www.linkedin.com/pub/ben-gourarie/62/997/451" target="_blank">linkedin</a>
 		</p>
-		<p> This website is hosted using Github Pages and some self-made JS, CSS on top of Bootstrap. Maybe someday I'll edit it to use Jekyll as well. 
+		<p> This website is hosted using Github Pages and some self-made JS, CSS on top of Bootstrap. Maybe someday I'll edit it to use Jekyll as well.
 			The site is to explain some of my personal projects and as a personal repository for thoughts and ideas that I feel are important enough to record but not important enough to remember in my head or save on my phone.
 		</p>
 
     </div>
 
-      	<div id="projects" class="container">
+ 	<div id="projects" class="container">
         <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="/images/wp-importer.png" alt="WordPress plugin framework for background processing of  large tasks">
-                </a>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="/images/pebblewatchface.png" alt="Pebble Time watchface that is very ugly">
-                </a>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="/images/pebbleweatherapp.png" alt="Pebble Time Weather app">
-                </a>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="#" >
-                    <img class="img-responsive" src="/images/projecteuler.png" alt="Project Euler problems and solutions">
-                </a>
-            </div>
-        </div>
-        <!-- /.row --> 
+			<div class="row">
+				<div class="col-md-3 portfolio-item">
+					<a href="#"  data-toggle="modal" data-target="#wordpressimporter">
+						<img class="img-responsive" src="/images/wordpress-plugins.png" alt="WordPress plugin framework for background processing of  large tasks">
+					</a>
+				</div>
+				<div class="col-md-3 portfolio-item"  data-toggle="modal" data-target="#pebblewatchface">
+					<a href="#">
+						<img class="img-responsive" src="/images/pebblewatchface.png" alt="Pebble Time watchface that is very ugly">
+					</a>
+				</div>
+				<div class="col-md-3 portfolio-item">
+					<a href="#"  data-toggle="modal" data-target="#pebbleweather">
+						<img class="img-responsive" src="/images/pebbleweatherapp.png" alt="Pebble Time Weather app">
+					</a>
+				</div>
+				<div class="col-md-3 portfolio-item">
+					<a href="#"  data-toggle="modal" data-target="#projecteuler">
+						<img class="img-responsive" src="/images/projecteuler.png" alt="Project Euler problems and solutions">
+					</a>
+				</div>
+			</div>
+			<!-- /.row -->
+			<!-- pebblewatchface -->
+			<div class="modal fade" id="pebblewatchface" tabindex="-1" role="dialog" aria-labelledby="Pebble Watch Face">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="pebbleWatchFaceTitle">Watch face for Pebble Time</h4>
+				  </div>
+				  <div class="modal-body">
+					Custom watch face made for the Pebble time. Shows the time/date in a hideously fantastic Chalkboard font
+					Two white progress bars above/below the time show Battery Life (above) and progress toward daily goal of 12,500 steps (below). Weather icon, Temperature, and actual step count (measured in thousands to one decimal place) go along the bottom.
+
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<!-- projecteuler -->
+			<div class="modal fade" id="projecteuler" tabindex="-1" role="dialog" aria-labelledby="Project Euler">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="projectEulerTitle">Solutions for Project Euler</h4>
+				  </div>
+				  <div class="modal-body">
+						<a href="http://projecteuler.net">Project Euler </a> is a collection of math problems which require creative, programmatic answers. I've slowly worked through the first twenty, only 380 left to go. I often use these to try out new programming languages or reacquaint myself with one I haven't used recently.
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<!-- pebbleweather -->
+			<div class="modal fade" id="pebbleweather" tabindex="-1" role="dialog" aria-labelledby="Pebble Time Weather app">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="pebbleweatherTitle">Pebble Time Weather app </h4>
+				  </div>
+				  <div class="modal-body">
+						Very simple app made for the Pebble Time. Pebble offers a fantastic cloud based IDE for making apps. I followed one of their tutorials to create  a simple app that fetches the hourly weather forecast for the next 30 hours and displays it in a simple list.
+				  </div>
+				</div>
+			  </div>
+			</div>
     	</div>
-     
+
 
   <footer>
 
